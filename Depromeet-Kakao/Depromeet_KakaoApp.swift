@@ -11,7 +11,7 @@ import SwiftUI
 struct Depromeet_KakaoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SampleTabView()
         }
     }
 }

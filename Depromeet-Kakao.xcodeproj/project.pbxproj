@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		070FCD232C40ADD00069C290 /* ChatRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070FCD222C40ADD00069C290 /* ChatRoomView.swift */; };
+		070FCD252C40B7F80069C290 /* ChatUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070FCD242C40B7F80069C290 /* ChatUtils.swift */; };
+		070FCD272C40BA460069C290 /* GroupChatInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070FCD262C40BA460069C290 /* GroupChatInfo.swift */; };
+		075DB6A22C32FD1E00704281 /* FriendUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075DB6A12C32FD1E00704281 /* FriendUtils.swift */; };
+		07C3E78D2C383EFB00438CAC /* SampleTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C3E78C2C383EFB00438CAC /* SampleTabView.swift */; };
+		07C3E78F2C383FE400438CAC /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C3E78E2C383FE400438CAC /* TabBarItem.swift */; };
+		07C3E7912C38429800438CAC /* ChatInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C3E7902C38429800438CAC /* ChatInfo.swift */; };
 		07EC87482C2EF1A90073EF8C /* Depromeet_KakaoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EC87472C2EF1A90073EF8C /* Depromeet_KakaoApp.swift */; };
 		07EC874A2C2EF1A90073EF8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EC87492C2EF1A90073EF8C /* ContentView.swift */; };
 		07EC874C2C2EF1A90073EF8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07EC874B2C2EF1A90073EF8C /* Assets.xcassets */; };
@@ -14,6 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		070FCD222C40ADD00069C290 /* ChatRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomView.swift; sourceTree = "<group>"; };
+		070FCD242C40B7F80069C290 /* ChatUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUtils.swift; sourceTree = "<group>"; };
+		070FCD262C40BA460069C290 /* GroupChatInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupChatInfo.swift; sourceTree = "<group>"; };
+		075DB6A12C32FD1E00704281 /* FriendUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendUtils.swift; sourceTree = "<group>"; };
+		07C3E78C2C383EFB00438CAC /* SampleTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTabView.swift; sourceTree = "<group>"; };
+		07C3E78E2C383FE400438CAC /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		07C3E7902C38429800438CAC /* ChatInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInfo.swift; sourceTree = "<group>"; };
 		07EC87442C2EF1A90073EF8C /* Depromeet-Kakao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Depromeet-Kakao.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07EC87472C2EF1A90073EF8C /* Depromeet_KakaoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depromeet_KakaoApp.swift; sourceTree = "<group>"; };
 		07EC87492C2EF1A90073EF8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +67,13 @@
 			children = (
 				07EC87472C2EF1A90073EF8C /* Depromeet_KakaoApp.swift */,
 				07EC87492C2EF1A90073EF8C /* ContentView.swift */,
+				075DB6A12C32FD1E00704281 /* FriendUtils.swift */,
+				07C3E78C2C383EFB00438CAC /* SampleTabView.swift */,
+				07C3E78E2C383FE400438CAC /* TabBarItem.swift */,
+				070FCD242C40B7F80069C290 /* ChatUtils.swift */,
+				070FCD222C40ADD00069C290 /* ChatRoomView.swift */,
+				07C3E7902C38429800438CAC /* ChatInfo.swift */,
+				070FCD262C40BA460069C290 /* GroupChatInfo.swift */,
 				07EC874B2C2EF1A90073EF8C /* Assets.xcassets */,
 				07EC874D2C2EF1A90073EF8C /* Preview Content */,
 			);
@@ -138,7 +159,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				07EC874A2C2EF1A90073EF8C /* ContentView.swift in Sources */,
+				07C3E7912C38429800438CAC /* ChatInfo.swift in Sources */,
+				075DB6A22C32FD1E00704281 /* FriendUtils.swift in Sources */,
+				07C3E78F2C383FE400438CAC /* TabBarItem.swift in Sources */,
+				070FCD232C40ADD00069C290 /* ChatRoomView.swift in Sources */,
+				07C3E78D2C383EFB00438CAC /* SampleTabView.swift in Sources */,
+				070FCD252C40B7F80069C290 /* ChatUtils.swift in Sources */,
 				07EC87482C2EF1A90073EF8C /* Depromeet_KakaoApp.swift in Sources */,
+				070FCD272C40BA460069C290 /* GroupChatInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
